@@ -1,0 +1,189 @@
+@media (max-width: 813px) {
+    .content {
+        position: relative;
+        top: 120px;
+        left: 145px;
+       
+     
+        
+
+        
+    }
+
+    .img {
+        position: relative;
+       
+        left: -282px;
+        top: -250px;
+        width: 200px;
+    }
+
+    .mainContent {
+        
+        position: relative;
+        top: -180px;
+        left: -160px;
+        height: 550px;
+        
+    }
+
+    .TextMain {
+       
+    }
+
+    .finaly {
+     
+    }
+
+    .imgB {
+        
+        
+    }
+
+    .MainWise {
+        position: relative;
+        left: 30px;
+        top: -150px;
+    }
+
+    .MainGoat {
+        position: relative;
+        left: 30px;
+        top: -150px;
+    }
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: -65px;
+    
+    
+}
+
+.wise {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #BAA193;
+    
+}
+
+.goat {
+    text-decoration: none;
+    font-size: 6em;
+    color: #72005F;
+    
+    
+
+}
+
+.img {
+    margin-left: 300px;
+    margin-top: -300px;
+}
+
+.btn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #72005F;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.btn:hover {
+    filter: brightness(65%);
+}
+
+.headerMain {
+    margin-left: -70px;
+    margin-top: -65px;
+}
+
+.MainWise {
+    text-decoration: none;
+    font-size: 1em;
+    color: #BAA193;
+    
+}
+
+.MainGoat {
+    text-decoration: none;
+    font-size: 2em;
+    color: #72005F;
+    margin-left: 5px;
+}
+
+.MainGoat:hover, .MainWise:hover {
+    filter: brightness(65%);
+}
+
+.goat:hover, .wise:hover {
+    filter: brightness(65%);
+}
+
+.mainContent {
+   
+    display: flex;
+    flex-direction: row;
+    margin-left: 95px;
+    margin-top: 40px;
+    width: 500px;
+    height: 250px;
+    
+    
+    
+    
+    
+    background-color: #ebe4e0;
+    
+}
+
+.imgB {
+    margin-left: 16px;
+}
+
+.TextMain {
+    padding: 15px;
+    font-size: 15px;
+    color: #72005F;
+    text-align: center;
+    margin-right: 10px;
+    
+    
+    
+}
+
+.finaly {
+    margin-left: 180px;
+    margin-right: 10px;
+    
+    font-weight: 0;
+    
+    color: #BAA193;
+}
+
+.alinha {
+    display: flex;
+    flex-direction: column;
+}
