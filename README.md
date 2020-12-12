@@ -1,68 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<p align="center">
+    <img src="https://i.imgur.com/u3OlLYj.png" alt="Logo" width="1000">
 
-## Available Scripts
+  <h3 align="center">WiseGoat by <a href="https://github.com/Lorenalgm">Lorena</a></h3>
+ <br />
+  <p align="center">
+     Site gerador de conselhos e imagens de bodes :)
+       <br />
+    <br />
+    <a href="https://github.com/devchallenge-io/wisegoat">Desafio</a>
+    ·
+    <a href="https://www.devchallenge.com.br/">DevChallenge</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+## Índice
 
-### `npm start`
+* [Devchallenge](#devchallenge) 
+* [Desafio](#desafio)
+* [Techs](#techs)
+* [Como começar](#como-começar)
+* [Dicas](#dicas)  
+  * [Cores](#cores)
+  * [Modelo](#modelo)
+  * [Imagens](#imagens)
+  * [Tipo de fonte](#tipo-de-fonte)
+* [Compartilhe](#compartilhe)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Devchallenge
+<a href="https://www.devchallenge.com.br/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Desafio
+Seu desafio é consumir os dados de duas API's e criar um site gerador de conselhos e de imagens de bodes! O modelo final está disponível na pasta "design"
 
-### `npm test`
+## Requisitos:
+- Sua página inicial deverá conter um botão "Pedir conselho", que irá redirecionar para a segunda página.<br>
+- A segunda página deverá contar uma frase e uma imagem de um bode<br>
+- A frase poderá ser gerada com a API <a href="https://api.adviceslip.com/">Advice Slip</a>. Para utilizá-la faça uma requisição GET para a URL "https://api.adviceslip.com/advice"
+- A imagem de bode poderá ser gerada utilizando a API <a href="https://placegoat.com/">PlaceGoat</a>. Para utilizá-la, basta adicionar o link "http://placegoat.com/width/height" na src da sua imagem. No lugar de width informe a largura desejada e no lugar de height informe a altura desejada.<br>
+Exemplo: `<img src="http://placegoat.com/200/200" alt="Bodezinho">`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Desafio extra:
+- Você pode aplicar uma animação no bode da página inicial, para dar o efeito que ele está flutuando
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Techs: 
+- HTML
+- CSS
+- Livre escolha :)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Como começar:
+1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
+2 - Leia as instruções no readme.md<br>
+3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
+4 - Compartilhe seu resultado com a comunidade! #devchallenge
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Dicas
 
-### `npm run eject`
+## Cores:
+Roxo: #72005F<br>
+Bege: #BAA193
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Modelo:
+O modelo final desktop está disponível na pasta `./design`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tipo de fonte:
+- Roboto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Compartilhe!
+Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
+Faça um print, gif ou vídeo e compartilhe o resultado com a #devchallenge!<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Desafio criado por  <a href="https://www.linkedin.com/in/lorenagmontes/">Lorena</a> :)
 
-## Learn More
+# Comunidade DevChallenge
+Site: https://www.devchallenge.com.br/ <br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div style="display:flex; align-items:center;justify-content:space-around;width:250px">
+<a href="https://discord.gg/yvYXhGj"><img src="https://cdn3.iconfinder.com/data/icons/discord/64/discord_20-512.png" width="30px" height="30px" alt="Discord"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<a href="https://www.linkedin.com/company/devchallenge/"><img src="https://image.flaticon.com/icons/svg/1384/1384014.svg" width="30px" height="30px" alt="Linkedin"></a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<a href="https://twitter.com/dev_challenge"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" width="30px" height="30px" alt="Twitter"></a>
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<a href="https://www.instagram.com/devchallenge/"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" width="30px" height="30px" alt="Instagram"></a>
+</div>
